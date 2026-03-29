@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <div class="logo-container">
+        <img src="logo.jpeg" class="logo">
+        <h2>Team Portfolio</h2>
+    </div>
+
+    <button id="darkModeToggle">🌙</button>
+</nav>
+
+<!-- TITLE -->
+<h1 class="title">Meet Our Team 🚀</h1>
+<img src="logo.jpeg" class="main-logo">
+
+
+<!-- TEAM -->
+<div class="team">
+
+    <!-- RISHI -->
+    <div class="card" onclick="openProfile('rishi')">
+        <div class="img-box">
+            <img src="photos/r.jpeg">
+        </div>
+        <h3>Rishi</h3>
+    </div>
+
+    <!-- SANJAY -->
+    <div class="card" onclick="openProfile('sanjay')">
+        <div class="img-box">
+            <img src="photos/s.jpeg">
+        </div>
+        <h3>Sanjay</h3>
+    </div>
+
+    <!-- CHARAN -->
+    <div class="card" onclick="openProfile('charan')">
+        <div class="img-box">
+            <img src="photos/c.jpeg">
+        </div>
+        <h3>Charan</h3>
+    </div>
+
+    <!-- ANUSHA -->
+    <div class="card" onclick="openProfile('anusha')">
+        <div class="img-box">
+            <img src="photos/a.jpeg">
+        </div>
+        <h3>Anusha</h3>
+    </div>
+
+    <!-- PUNITH -->
+    <div class="card" onclick="openProfile('punith')">
+        <div class="img-box">
+            <img src="photos/pu.jpeg">
+        </div>
+        <h3>Punith</h3>
+    </div>
+
+    <!-- PRAJWAL -->
+    <div class="card" onclick="openProfile('prajwal')">
+        <div class="img-box">
+            <img src="photos/p.jpeg">
+        </div>
+        <h3>Prajwal</h3>
+    </div>
+
+    <!-- DHANESHWARI -->
+    <div class="card" onclick="openProfile('dhaneshwari')">
+        <div class="img-box">
+            <img src="photos/d.jpeg">
+        </div>
+        <h3>Dhaneshwari</h3>
+    </div>
+
+    <!-- BHAVYA -->
+    <div class="card" onclick="openProfile('bhavya')">
+        <div class="img-box">
+            <img src="photos/b.jpeg">
+        </div>
+        <h3>Bhavya</h3>
+    </div>
+
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="profileData"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
